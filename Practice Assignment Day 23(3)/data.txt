@@ -1,0 +1,2 @@
+This is some sample data for Challenge 7.
+It will be read using a callback function.

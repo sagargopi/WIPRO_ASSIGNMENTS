@@ -1,0 +1,68 @@
+/* Custom overrides for the school theme */
+:root {
+    --school-primary: #ffcc99;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+header, .content-box, .profile-container, .timetable-container {
+    background-color: var(--school-primary) !important;
+}
+
+/* Ensure images fit within their containers */
+.logo-img {
+    object-fit: contain;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .nav {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav-item {
+        font-size: 0.9rem;
+    }
+
+    .logo-container {
+        margin-right: 0 !important;
+    }
+
+    .content-box h1 {
+        font-size: 1.8rem;
+    }
+    
+    .timetable-container {
+        padding: 10px !important;
+    }
+
+    .table th, .table td {
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+}
+
+/* Table styling for Sprint 2 */
+.table {
+    background-color: white;
+}
+
+.table-responsive {
+    border: 1px solid #000;
+}
+
+/* Active link styling consistency */
+.nav-link.active {
+    background-color: #fff !important;
+    border: 1px solid #000 !important;
+}

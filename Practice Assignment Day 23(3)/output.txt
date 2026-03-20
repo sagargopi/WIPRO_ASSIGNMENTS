@@ -1,0 +1,2 @@
+This content will be copied from input.txt to output.txt.
+It is for Challenges 8 and 9.

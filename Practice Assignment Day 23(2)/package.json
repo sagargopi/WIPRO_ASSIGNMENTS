@@ -1,0 +1,19 @@
+{
+  "name": "practice-assignment-day-23(2)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello-node.js",
+  "type": "module",
+  "scripts": {
+    "start": "node banner.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "figlet": "^1.11.0",
+    "moment": "^2.30.1"
+  }
+}
